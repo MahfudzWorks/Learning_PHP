@@ -32,4 +32,22 @@ if ($nilai2 >= 90) {
     echo "Grade = D <br>";
 }
 
+// SWITCH
+
+echo "<h2>Switch Case</h2>";
+
+$hari = "Senin";
+
+switch ($hari) {
+    case "Senin":
+        echo "Hari kerja <br>";
+        break;
+    case "Sabtu":
+    case "Minggu":
+        echo "Hari libur <br>";
+        break;
+    default:
+        echo "Hari biasa <br>";
+}
+
 ?>
